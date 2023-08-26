@@ -1,5 +1,3 @@
-# Spam-Halt
-Spam classifier using Bidirectional LSTM
 
 # Bidirectional LSTM (Long Short-Term Memory) Explained
 
@@ -20,8 +18,6 @@ Welcome to the explanation of Bidirectional LSTM (Long Short-Term Memory) networ
 LSTM is a type of recurrent neural network (RNN) that is well-suited for sequence-related tasks, such as natural language processing, speech recognition, and time series analysis. However, standard LSTMs only consider past context when making predictions. Bidirectional LSTMs were designed to overcome this limitation by incorporating both past and future context information into predictions.
 
 ## Bidirectional LSTM Architecture
-![Bidirectional LSTM Architecture](https://path-to-your-image/bidirectional_lstm_architecture.png)  
-*(Image source: [Unsplash](https://unsplash.com/photos/your-image-id))*
 
 A Bidirectional LSTM consists of two LSTM layers: one processing the input sequence in forward order (from the beginning to the end), and the other processing the sequence in reverse order (from the end to the beginning). These two layers are combined to provide a more comprehensive understanding of the sequence context.
 
